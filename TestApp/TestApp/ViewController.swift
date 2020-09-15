@@ -13,8 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let arrayItem = [4 , 5, 6, 7, 8]
+        var output = [Int]()
         for item in arrayItem {
-            print(item)
+            if item%2 == 0 {
+                output.append(item);
+            }
+            print(output)
         }
     }
 
