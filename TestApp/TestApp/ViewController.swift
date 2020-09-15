@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let arrayItem = [4 , 5, 6, 7, 8]
+        for item in arrayItem {
+            print(item)
+        }
     }
 
 
